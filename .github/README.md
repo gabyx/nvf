@@ -121,7 +121,7 @@ the following in order to take **nvf** out for a spin.
 
 ```bash
 # Run the default package
-nix run github:notashelf/nvf
+nix run "github:notashelf/nvf"
 ```
 
 This will get you a feel for the base configuration and UI design. Though, none
@@ -138,7 +138,7 @@ For example, to get a configuration with large language coverage, run:
 
 ```bash
 # Run the maximal package
-nix run github:notashelf/nvf#maximal
+nix run "github:notashelf/nvf#maximal"
 ```
 
 Similar instructions will apply for `nix profile install`. However, you are
